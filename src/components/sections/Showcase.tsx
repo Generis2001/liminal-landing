@@ -17,7 +17,7 @@ export function Showcase() {
               Track your performance, analyze game statistics, and interact seamlessly with the Liminal ecosystem. Your profile is automatically synced to your wallet.
             </p>
             <a 
-              href="https://liminalcasino.vercel.app/home"
+              href="https://liminalcasino.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-accent-gold font-semibold hover:text-accent-glow transition-colors group"
@@ -26,23 +26,7 @@ export function Showcase() {
             </a>
           </div>
 
-          <div className="flex-1 w-full relative">
-            {/* Dark Placeholder for UI Screenshot */}
-            <motion.div 
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="w-full aspect-[4/3] rounded-2xl glass-card overflow-hidden shadow-2xl relative border-accent-gold/20 flex items-center justify-center bg-black/60"
-            >
-              <div className="absolute inset-0 bg-gradient-to-tr from-accent-gold/5 to-transparent" />
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full border border-white/10 flex items-center justify-center mx-auto mb-4 bg-white/5">
-                  <span className="text-white/20 text-xs font-mono uppercase tracking-widest">Image</span>
-                </div>
-                <p className="text-[var(--text-muted)] font-mono text-sm">Dashboard_Screenshot.png</p>
-              </div>
-            </motion.div>
-          </div>
+
         </div>
 
       </div>
