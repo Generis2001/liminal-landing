@@ -1,14 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --font-inter: 'Inter', system-ui, sans-serif;
-  --font-outfit: 'Outfit', system-ui, sans-serif;
-  --font-jetbrains: 'JetBrains Mono', monospace;
-
   /* Fonts */
-  --font-display: var(--font-outfit);
-  --font-body: var(--font-inter);
-  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-outfit), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains), monospace;
 
   /* Colors */
   --color-liminal-50: #faf8f5;
@@ -24,9 +20,6 @@
 }
 
 :root {
-  --font-inter: 'Inter', system-ui, sans-serif;
-  --font-outfit: 'Outfit', system-ui, sans-serif;
-  --font-jetbrains: 'JetBrains Mono', monospace;
 
   /* Always Dark Theme for Liminal Landing */
   --bg-primary: #0a0a0b;
@@ -59,7 +52,7 @@ html {
 }
 
 body {
-  font-family: var(--font-inter);
+  font-family: var(--font-inter), sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
