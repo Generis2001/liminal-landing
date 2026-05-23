@@ -6,7 +6,7 @@ import { ArcLogoA } from "@/components/ui/ArcLogoA";
 
 export function Hero() {
   return (
-    <section className="relative pt-48 pb-12 flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       
       {/* Background Glow Effects */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent-gold/10 rounded-full blur-[120px] -z-10 animate-glow-pulse" />
@@ -62,7 +62,7 @@ export function Hero() {
           initial={{ opacity: 0, scaleX: 0 }}
           animate={{ opacity: 1, scaleX: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="w-full h-px bg-gradient-to-r from-transparent via-[var(--border-color)] to-transparent mt-16"
+          className="w-full h-px bg-gradient-to-r from-transparent via-[var(--border-color)] to-transparent mt-24"
         />
       </div>
     </section>
