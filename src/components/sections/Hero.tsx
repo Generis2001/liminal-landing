@@ -21,18 +21,18 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-accent-gold/30 mb-8 bg-black/40">
             <Sparkles className="w-4 h-4 text-accent-gold" />
-            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on Arc Testnet</span>
+            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on Ʌrc Testnet</span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 tracking-tight leading-[1.1]">
-            The Future of <br className="hidden md:block" />
-            <span className="text-gradient">Web3 Gaming</span>
+            CASINO EXPERIENCE <br className="hidden md:block" />
+            <span className="text-gradient">ON ɅRC</span>
           </h1>
 
           {/* Subtext */}
           <p className="text-lg md:text-xl text-[var(--text-muted)] max-w-2xl mx-auto mb-12 leading-relaxed">
-            Experience frictionless onboarding, zero-gas mechanics, and cinematic gameplay powered by the high-performance Arc infrastructure.
+            Experience the next generation of frictionless Web3 Casino, powered by the speed and security of the Arc Testnet.
           </p>
 
           {/* CTAs */}
@@ -41,7 +41,7 @@ export function Hero() {
               href="https://liminalcasino.vercel.app/home"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent-gold text-black font-bold text-lg hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_30px_rgba(196,169,122,0.4)] group"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent-gold text-black font-extrabold text-xl hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_30px_rgba(196,169,122,0.4)] group tracking-wide"
             >
               Launch App
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

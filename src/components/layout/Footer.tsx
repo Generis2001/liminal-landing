@@ -14,7 +14,7 @@ export function Footer() {
               <span className="font-display font-bold text-xl text-white">Liminal</span>
             </Link>
             <p className="text-[var(--text-muted)] text-sm max-w-sm leading-relaxed mb-6">
-              Experience the next generation of frictionless Web3 gaming, powered by the speed and security of the Arc Testnet.
+              Experience the next generation of frictionless Web3 Casino, powered by the speed and security of the Arc Testnet.
             </p>
             <div className="flex gap-4">
               <span className="flex items-center gap-1.5 text-xs text-[var(--text-secondary)] font-mono border border-[var(--border-color)] rounded-lg px-2 py-1 bg-[var(--bg-secondary)]">
@@ -40,9 +40,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#ecosystem" className="text-sm text-[var(--text-muted)] hover:text-white transition-colors">
-                  Ecosystem
-                </Link>
+                <a href="https://testnet.arcscan.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-muted)] hover:text-white transition-colors">
+                  Arcscan
+                </a>
               </li>
             </ul>
           </div>

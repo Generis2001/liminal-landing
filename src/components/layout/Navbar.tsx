@@ -23,12 +23,9 @@ export function Navbar() {
           <Link href="#features" className="text-sm font-medium text-[var(--text-muted)] hover:text-white transition-colors">
             Features
           </Link>
-          <Link href="#ecosystem" className="text-sm font-medium text-[var(--text-muted)] hover:text-white transition-colors">
-            Ecosystem
-          </Link>
-          <Link href="#security" className="text-sm font-medium text-[var(--text-muted)] hover:text-white transition-colors">
-            Security
-          </Link>
+          <a href="https://testnet.arcscan.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[var(--text-muted)] hover:text-white transition-colors">
+            Arcscan
+          </a>
         </div>
 
         {/* CTA */}
@@ -37,7 +34,7 @@ export function Navbar() {
             href="https://liminalcasino.vercel.app/home"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-gold text-black font-semibold text-sm hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(196,169,122,0.3)]"
+            className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-accent-gold text-black font-extrabold text-[15px] hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(196,169,122,0.3)] tracking-wide"
           >
             Launch App
             <ArrowRight className="w-4 h-4" />
