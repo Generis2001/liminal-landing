@@ -31,7 +31,7 @@ export function Navbar() {
         {/* CTA */}
         <div className="flex items-center">
           <a 
-            href="https://liminalcasino.vercel.app/home"
+            href="https://liminalcasino.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-accent-gold text-black font-extrabold text-[15px] hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(196,169,122,0.3)] tracking-wide"

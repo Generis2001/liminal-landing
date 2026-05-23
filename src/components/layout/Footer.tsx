@@ -30,7 +30,7 @@ export function Footer() {
             <h4 className="font-display font-semibold text-white mb-4">Platform</h4>
             <ul className="space-y-3">
               <li>
-                <a href="https://liminalcasino.vercel.app/home" className="text-sm text-[var(--text-muted)] hover:text-accent-gold transition-colors inline-flex items-center gap-1">
+                <a href="https://liminalcasino.vercel.app" className="text-sm text-[var(--text-muted)] hover:text-accent-gold transition-colors inline-flex items-center gap-1">
                   Launch App <ArrowUpRight className="w-3 h-3" />
                 </a>
               </li>

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { ArcLogoA } from "@/components/ui/ArcLogoA";
 
 export function Hero() {
   return (
@@ -21,13 +22,13 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-accent-gold/30 mb-8 bg-black/40">
             <Sparkles className="w-4 h-4 text-accent-gold" />
-            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on Ʌrc Testnet</span>
+            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on <ArcLogoA />rc Testnet</span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 tracking-tight leading-[1.1]">
             CASINO EXPERIENCE <br className="hidden md:block" />
-            <span className="text-gradient">ON ɅRC</span>
+            <span className="text-gradient flex items-center justify-center">ON <ArcLogoA gradient />RC</span>
           </h1>
 
           {/* Subtext */}
@@ -38,7 +39,7 @@ export function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <a
-              href="https://liminalcasino.vercel.app/home"
+              href="https://liminalcasino.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent-gold text-black font-extrabold text-xl hover:bg-accent-glow hover:scale-105 active:scale-95 transition-all shadow-[0_0_30px_rgba(196,169,122,0.4)] group tracking-wide"
