@@ -10,12 +10,9 @@ export function Showcase() {
         
         <div className="flex flex-col md:flex-row items-center gap-16 mb-24">
           <div className="flex-1">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-36 leading-tight">
               A Dashboard That <br/> <span className="text-accent-gold">Commands Attention</span>
             </h2>
-            <p className="text-[var(--text-muted)] text-lg mb-8 max-w-lg leading-relaxed">
-              Track your performance, analyze game statistics, and interact seamlessly with the Liminal ecosystem. Your profile is automatically synced to your wallet.
-            </p>
             <a 
               href="https://liminalcasino.vercel.app"
               target="_blank"
