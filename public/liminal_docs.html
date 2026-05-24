@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liminal Docs</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        h1, h2, h3 { color: #111; }
+        h1 { border-bottom: 2px solid #c4a97a; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #eaeaea; padding-bottom: 5px; margin-top: 30px; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+        @media print {
+            body { padding: 0; }
+            a { text-decoration: none; color: #000; }
+        }
+    </style>
+</head>
+<body onload="setTimeout(() => window.print(), 500)">
+    <h1>Liminal: The Future of Web3 Casino</h1>
+
+    <h2>1. Executive Summary</h2>
+    <p>Liminal is a next-generation decentralized casino built on the <strong>Arc Testnet</strong>. It bridges the gap between traditional Web2 user experiences and the decentralized, trustless nature of Web3. By leveraging advanced wallet abstraction and gasless infrastructure, Liminal provides a cinematic, frictionless, and highly secure gaming environment.</p>
+
+    <h2>2. Core Features</h2>
+    <ul>
+        <li><strong>Frictionless Onboarding</strong>: Powered by Privy. Users can connect effortlessly via social logins (Google, Twitter), email, or any standard Web3 wallet (MetaMask, WalletConnect). Instant account creation removes the barrier to entry for non-crypto natives.</li>
+        <li><strong>Built on Arc Testnet</strong>: Experience zero-latency transactions and non-existent gas fees. The Arc infrastructure guarantees an uninterrupted flow, allowing gameplay to occur entirely on-chain without the traditional UX friction of constant wallet approvals.</li>
+        <li><strong>Cinematic Gameplay</strong>: An immersive dark-mode UI featuring fluid micro-interactions, glassmorphism aesthetics, and real-time state updates.</li>
+        <li><strong>Absolute Security</strong>: Every bet is written to smart contracts. Users retain absolute custody of their assets with transparent, decentralized logic that is provably fair.</li>
+    </ul>
+
+    <h2>3. Technology Stack</h2>
+    <p>The Liminal platform is divided into two main components: the core Casino Web Application and the standalone Marketing Landing Page.</p>
+    
+    <h3>Frontend Architecture</h3>
+    <ul>
+        <li><strong>Framework</strong>: Next.js 15 (App Router)</li>
+        <li><strong>Language</strong>: TypeScript</li>
+        <li><strong>Styling</strong>: Tailwind CSS v4, Vanilla CSS</li>
+        <li><strong>Animations</strong>: Framer Motion (for dynamic UI layouts and micro-interactions)</li>
+        <li><strong>Icons</strong>: Lucide React</li>
+    </ul>
+
+    <h3>Web3 & Authentication Infrastructure</h3>
+    <ul>
+        <li><strong>Authentication</strong>: Privy (Wallet abstraction, Social Logins, embedded wallets)</li>
+        <li><strong>Blockchain Interaction</strong>: Wagmi & Viem (for contract reads/writes and listening to chain state)</li>
+        <li><strong>Target Network</strong>: Arc Testnet (Custom RPC integration)</li>
+    </ul>
+
+    <h2>4. UI/UX Design System</h2>
+    <p>Liminal utilizes a highly customized, premium dark-mode design system.</p>
+    <ul>
+        <li><strong>Typography</strong>: <code>Outfit</code> for display headings (bold, geometric, attention-grabbing) and <code>Inter</code> for highly legible body text.</li>
+        <li><strong>Color Palette</strong>: Deep dark backgrounds (<code>#0a0a0b</code>) contrasted with sleek, metallic gold accents (<code>#c4a97a</code> and <code>#e8d5b0</code>) to emulate a premium, high-roller environment.</li>
+        <li><strong>Glassmorphism</strong>: Heavy use of backdrop-blur (e.g., <code>backdrop-filter: blur(20px)</code>) combined with semi-transparent borders to create depth and modern spatial interfaces.</li>
+    </ul>
+
+    <h2>5. Network Configuration (Arc Testnet)</h2>
+    <p>To interact with Liminal, users connect to the Arc Testnet using the following parameters:</p>
+    <ul>
+        <li><strong>Network Name</strong>: Arc Testnet</li>
+        <li><strong>RPC URL</strong>: <code>https://testnet.arcscan.app/rpc</code></li>
+        <li><strong>Explorer</strong>: <code>https://testnet.arcscan.app/</code></li>
+    </ul>
+
+    <h2>6. Project Repositories & Deployment</h2>
+    <ul>
+        <li><strong>Liminal Casino App</strong>: The core Web3 application featuring the full Privy connection flows, smart contract interactions, and the casino dashboard. Deployed on Vercel.</li>
+        <li><strong>Liminal Landing Page</strong>: A completely isolated, standalone marketing repository designed specifically for presentation and SEO optimization. It maintains the identical visual identity of the core app but strips out the heavy Web3 authentication dependencies to ensure maximum loading speeds for marketing purposes.</li>
+    </ul>
+
+    <h2>7. Future Roadmap</h2>
+    <ul>
+        <li>Integration of mainnet smart contracts upon Arc's transition to Mainnet.</li>
+        <li>Expansion of provably fair game offerings natively embedded in the Liminal Dashboard.</li>
+        <li>Implementation of cross-chain liquidity routing to allow users from Ethereum and Solana to seamlessly gamble on Liminal via Arc's high-speed infrastructure.</li>
+    </ul>
+    
+    <p style="margin-top: 40px; font-size: 12px; color: #888; border-top: 1px solid #eaeaea; padding-top: 10px;">
+        <em>Generated by Antigravity for the Liminal Project</em>
+    </p>
+</body>
+</html>
