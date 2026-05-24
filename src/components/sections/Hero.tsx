@@ -22,13 +22,13 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-accent-gold/30 mb-8 bg-black/40">
             <Sparkles className="w-4 h-4 text-accent-gold" />
-            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on <ArcLogoA />rc Testnet</span>
+            <span className="text-sm font-mono text-[var(--text-primary)]">Now live on&nbsp;<ArcLogoA />rc Testnet</span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 tracking-tight leading-[1.1]">
             CASINO EXPERIENCE <br className="hidden md:block" />
-            <span className="text-gradient flex items-center justify-center">ON <ArcLogoA gradient />RC</span>
+            <span className="text-gradient flex items-center justify-center">ON&nbsp;&nbsp;<ArcLogoA gradient />RC</span>
           </h1>
 
           {/* Subtext */}
